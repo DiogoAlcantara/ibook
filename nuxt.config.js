@@ -42,10 +42,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios'],
 
-  axios: {
-    baseURL:
-      process.env.NOV_ENV === 'production' ? '' : 'http://localhost:3000',
-  },
+  axios: { baseURL: 'https://ibook-api.herokuapp.com' },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
