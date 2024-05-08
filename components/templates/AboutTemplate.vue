@@ -1,13 +1,13 @@
 import PageTitle from '../atom/PageTitle.vue';
 <template>
-  <div class="home-template">
-    <PageTitle text="Bem vindo ao " strong="iBook" />
-    <Releases />
+  <div class="about-template">
+    <PageTitle text="O que é o " strong="iBook?" />
+    <Presentation />
   </div>
 </template>
 
 <style lang="scss" scoped>
-.home-template {
+.about-template {
   display: grid;
   grid-gap: 4rem;
 }
